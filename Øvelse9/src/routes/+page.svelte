@@ -22,7 +22,7 @@
 		<Input class="input m-2" bind:value={userName} placeholder="Brugernavn" />
 	</div>
 	<div>
-		<Input class="input m-2" bind:value={password} placeholder="Kodeord" />
+		<Input class="input m-2" bind:value={password} placeholder="Adgangskode" />
 	</div>
 	<div>
 		<Button class="btn btn-primary m-2" onclick={btnclick}>Login</Button>

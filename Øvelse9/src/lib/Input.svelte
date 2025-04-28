@@ -1,5 +1,5 @@
 <script>
-	let { value = $bindable('') } = $props();
+	let { value = $bindable(''), placeholder = '' } = $props();
 </script>
 
-<input class="input m-2" bind:value placeholder="Brugernavn" />
+<input class="input m-2" bind:value {placeholder} />
